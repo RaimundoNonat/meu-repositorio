@@ -1,0 +1,11 @@
+body {margin: 0px; padding: 0px; height: 100%;}
+nav {display: grid; grid-template-columns: 30% 100%; width: 60%; margin-left: 3%;}
+ul {padding: 10px; margin: 5px;}
+a {text-decoration: none; color: black;}
+a:hover, .active {color: blue; font-size: 14px;}
+#my-4 {margin-top: -15px; margin-bottom: 1rem; border-top: 2px solid rgba(0, 0, 0, 0.4);}
+strong {color: red; font-family: Arial Narrow, sans-serif; font-size: 14px;}
+#template {line-height: 26px;}
+#resultado {color: rgb(95, 89, 89);}
+footer.fixar-rodape {border-top: 1px solid #333; bottom: 0; left: 0; height: 50px; position: fixed; width: 100%; background-color: #333; text-align: center; color: white;}
+#wiki {margin-left: 5%;}
