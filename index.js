@@ -3,6 +3,7 @@ import variaveis from "./pages/variaveis.js";
 import home from "./pages/home.js";
 import tiposDeDados from "./pages/tiposDeDados.js";
 import operadores from "./pages/operadores.js";
+import funcao from "./pages/funcao.js";
 
 const main = document.querySelector('#root')
 
@@ -23,6 +24,9 @@ const init = () => {
       break
       case '#operadores':
       operadores()
+      break
+      case '#funcao':
+      funcao()
       break
       }
     })
